@@ -1,0 +1,15 @@
+export const FIELDS = [
+  { key: 'name',             label: 'Marker name or ID',             type: 'text' },
+  { key: 'description',      label: 'Description',                   type: 'text' },
+  { key: 'date',             label: 'Date',                          type: 'date' },
+  { key: 'time',             label: 'Time (local)',                  type: 'time' },
+  { key: 'elevation_m',      label: 'Elevation (m above sea level)', type: 'number' },
+  { key: 'fix',              label: 'GPS fix',                       type: 'select', options: ['FIX', 'FLOAT', 'SINGLE', 'Phone GPS', 'Map click'] },
+  { key: 'horizontal_rms_m', label: 'Horizontal accuracy (m)',       type: 'number' },
+  { key: 'vertical_rms_m',   label: 'Vertical accuracy (m)',         type: 'number' },
+  { key: 'device',           label: 'Device',                        type: 'text' },
+  { key: 'correction',       label: 'Correction type',               type: 'select', options: ['RTK', 'PPK', 'None'] },
+  { key: 'antenna_height_m', label: 'Antenna height (m)',            type: 'number' },
+  { key: 'source',           label: 'Survey or contributor',         type: 'text' },
+  { key: 'notes',            label: 'Notes',                         type: 'textarea' },
+];
